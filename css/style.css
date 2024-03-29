@@ -1,0 +1,46 @@
+.headerContent {
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+h6 {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 12px;
+    color: #131313
+}
+
+h4 {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313
+}
+
+h3 {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 28px;
+    color: #131313
+}
+
+h2 {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 30px;
+    color: #131313
+}
+
+h1 {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 70px;
+    color: #131313
+}
+
+p {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313
+}
