@@ -18,14 +18,14 @@
     padding-bottom: 5px;
 }
 
-.welcome-container {
+.welcomeContainer {
     padding-top: 90px;
     margin: 0 auto;
     display: flex;
     width: 680px;
 }
 
-.welcome-child {
+.welcomeChild {
     flex: 1;
     margin-left: auto;
     margin-right: auto;
@@ -126,7 +126,7 @@ footer {
     flex: 1;
 }
 
-.footer-p {
+.footerP {
     color: #EDD5CF;
     text-wrap: nowrap;
 }
