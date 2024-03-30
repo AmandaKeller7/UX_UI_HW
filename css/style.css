@@ -1,12 +1,67 @@
 .headerContent {
-    margin: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    padding:0;
     display: inline-block;
+    background-color: #D2DDBC;
 }
+
+.headerLogo {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.headerMenu {
+    width: 100px;
+    height:100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.welcome-container {
+    padding-top: 90px;
+    margin: 0 auto;
+    display: flex;
+    width: 680px;
+}
+
+.welcome-child {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+hr {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 75%;
+}
+
+section {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
 
 h6 {
     font-family: "Jost";
     font-weight: 400;
     font-size: 12px;
+    margin-bottom: 0;
     color: #131313
 }
 
@@ -32,15 +87,56 @@ h2 {
 }
 
 h1 {
+    margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
     font-size: 70px;
-    color: #131313
+    color: #131313;
+    display: inline;
+    position:relative;
+    top:-20px;
 }
 
 p {
     font-family: "Jost";
     font-weight: 400;
-    font-size: 20px;
-    color: #131313
+    font-size: 18px;
+    color: #131313;
+    margin: -5px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+    background-color: #311911;
+    text-align: center;
+    max-height: 110px;
+}
+
+.footerContent {
+    display: inline-block;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex: 1;
+}
+
+.footer-p {
+    color: #EDD5CF;
+    text-wrap: nowrap;
+}
+
+.footerFlex {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+}
+.align {
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
 }
