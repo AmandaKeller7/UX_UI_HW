@@ -3,7 +3,7 @@
     padding:0;
     display: inline-block;
     background-color: #D2DDBC;
-}
+} 
 
 .headerLogo {
     padding-top: 10px;
@@ -115,6 +115,7 @@ footer {
     background-color: #311911;
     text-align: center;
     max-height: 110px;
+    position: fixed;
 }
 
 .footerContent {
