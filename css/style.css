@@ -1,3 +1,12 @@
+html { 
+    overflow-y: scroll; 
+}
+
+body { 
+    position: absolute; 
+    width: 100%;
+}
+
 .headerContent {
     margin: 0px 0px 0px 0px;
     padding:0;
@@ -65,6 +74,13 @@ h6 {
     color: #131313
 }
 
+h5 {
+    font-family: "Jost";
+    font-weight: 500;
+    font-size: 20px;
+    color: #131313
+}
+
 h4 {
     font-family: "Jost";
     font-weight: 400;
@@ -83,7 +99,7 @@ h2 {
     font-family: "Jost";
     font-weight: 400;
     font-size: 30px;
-    color: #131313
+    color: #131313;
 }
 
 h1 {
@@ -115,7 +131,7 @@ footer {
     background-color: #311911;
     text-align: center;
     max-height: 110px;
-    position: fixed;
+
 }
 
 .footerContent {
@@ -140,4 +156,9 @@ footer {
     align-items: center;
     margin-top: 5px;
     margin-left: 10px;
+}
+
+.h2align {
+    text-align: center;
+    width: 100%;
 }
