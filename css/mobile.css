@@ -1,3 +1,4 @@
+
 html {
     overflow-y: scroll;
 }
@@ -30,16 +31,15 @@ body {
 }
 
 .heroImg {
-    content:url("/images/desktopherohomepage.png");
+    content:url("/images/mobileherohomepage.png");
+    margin-bottom: 30px;
 }
-
-
 
 .welcomeContainer {
     padding-top: 90px;
     margin: 0 auto;
     display: flex;
-    width: 680px;
+    width: 370px;
 }
 
 .welcomeChild {
@@ -48,17 +48,11 @@ body {
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    width: 176px;
 }
 
 .center {
     text-align: center;
-}
-
-.whatContainer {
-    margin: 0 auto;
-    display: flex;
-    width: 940px;
-    margin-bottom: 90px;
 }
 
 .centerDiv {
@@ -68,13 +62,19 @@ body {
     text-align: center;
 }
 
+.whatContainer {
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    width: 287px;
+    margin-bottom: 90px;
+}
+
 .whatDiv {
     background-color: #D2DDBC;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .whatH5 {
@@ -83,14 +83,18 @@ body {
 }
 
 .workGrid {
-    display: grid;
-    /* columns: 12; */
-    grid-template-columns: auto 33.3% 16.6% 33.3% auto;
-    column-gap: 20px;
+    display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    justify-content: center;
 }
 
 .workCell {
-    width: 100%;
+    width: 287px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .blueDiv {
@@ -146,11 +150,11 @@ body {
 }
 
 .linkedInP {
-    content:url("/images/desktoplinkediniconfooter.png");
+    content:url("/images/mobilelinkediniconfooter.png");
 }
 
 .linkedInG {
-    content:url("/images/desktoplinkedinicon.png");
+    content:url("/images/mobilelinkedinicon.png");
 }
 
 input {
@@ -159,8 +163,9 @@ input {
     border:0px;
     padding-left: 10px;
     height: 27px;
-    width: 329px;
+    width: 250px;
     background-color: #D4D4D4;
+    /* margin: 5px; */
 }
 
 textarea {
@@ -171,7 +176,7 @@ textarea {
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-    width: 680px;
+    width: 310px;
     height: 169px;
     padding-top: 10px;
     padding-left: 10px;
@@ -209,7 +214,7 @@ h6 {
 h5 {
     font-family: "Jost";
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     color: #131313
 }
 
@@ -217,14 +222,15 @@ h4 {
     margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     color: #131313
 }
 
 h3 {
     font-family: "Jost";
     font-weight: 400;
-    font-size: 48px;
+    font-size: 34px;
+    margin-bottom: 0px;
     margin-bottom: 0px;
     color: #131313
 }
@@ -232,7 +238,7 @@ h3 {
 h2 {
     font-family: "Jost";
     font-weight: 400;
-    font-size: 48px;
+    font-size: 34px;
     color: #131313;
     margin-bottom: 30px;
 }
@@ -241,17 +247,17 @@ h1 {
     margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
-    font-size: 70px;
+    font-size: 40px;
     color: #131313;
     display: inline;
     position: relative;
-    top: -20px;
+    top: -4px;
 }
 
 p {
     font-family: "Jost";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: #131313;
     margin: -5px 0px 0px 0px;
     padding-bottom: 10px;
@@ -281,6 +287,7 @@ footer {
 .footerP {
     color: #EDD5CF;
     text-wrap: nowrap;
+
 }
 
 .footerFlex {
@@ -291,7 +298,7 @@ footer {
 
 .align {
     align-items: center;
-    margin-top: 5px;
+    margin-top: 9px;
     margin-left: 10px;
 }
 
