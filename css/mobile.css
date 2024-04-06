@@ -84,9 +84,9 @@ body {
 
 .workGrid {
     display: flex;
-    /* margin: 0 auto; */
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .workCell {
@@ -204,6 +204,7 @@ header {
 
 
 h6 {
+    margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
     font-size: 12px;
@@ -212,6 +213,7 @@ h6 {
 }
 
 h5 {
+    margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 500;
     font-size: 19px;
@@ -227,15 +229,15 @@ h4 {
 }
 
 h3 {
+    margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
     font-size: 34px;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
     color: #131313
 }
 
 h2 {
+    margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
     font-size: 34px;
