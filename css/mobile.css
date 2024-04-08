@@ -31,7 +31,7 @@ body {
 }
 
 .heroImg {
-    content:url("images/mobileherohomepage.png");
+    content:url("../images/mobileherohomepage.png");
     margin-bottom: 30px;
 }
 
@@ -150,11 +150,11 @@ body {
 }
 
 .linkedInP {
-    content:url("images/mobilelinkediniconfooter.png");
+    content:url("../images/mobilelinkediniconfooter.png");
 }
 
 .linkedInG {
-    content:url("images/mobilelinkedinicon.png");
+    content:url("../images/mobilelinkedinicon.png");
 }
 
 input {
