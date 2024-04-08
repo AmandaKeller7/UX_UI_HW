@@ -135,7 +135,7 @@ p {
 }
 
 .heroImg {
-    content:url("/images/desktopherohomepage.png");
+    content:url("images/desktopherohomepage.png");
 }
 
 .welcomeContainer {
@@ -271,11 +271,11 @@ button {
 }
 
 .linkedInP {
-    content:url("/images/desktoplinkediniconfooter.png");
+    content:url("images/desktoplinkediniconfooter.png");
 }
 
 .linkedInG {
-    content:url("/images/desktoplinkedinicon.png");
+    content:url("images/desktoplinkedinicon.png");
 }
 
 footer {
