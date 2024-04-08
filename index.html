@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 1016px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
@@ -26,11 +27,12 @@
             </div>
         </div>
     </header>
+
     <section>
         <div class="welcomeContainer">
             <div class="welcomeChild center">
-                <img src="images/desktopherohomepage.png"><br>
-                <img src="images/desktoplinkedinicon.png">
+                <img class="heroImg" src="images/desktopherohomepage.png"><br>
+                <img class="linkedInG" src="images/desktoplinkedinicon.png">
             </div>
             <div class="welcomeChild">
                 <h1>Welcome!</h1>
@@ -49,18 +51,122 @@
             </div>
         </div>
     </section>
+
     <section>
         <div>
             <hr>
         </div>
-    </section>
-    <section>
+        <div class="centerDiv">
+            <h2>What I can do</h2>
+        </div>
+        <div class="whatContainer">
+            <div class="whatDiv">
+                <div>
+                    <h5 class="whatH5">Research</h5>
+                </div>
+                <div>
+                    <p>I can utilize several types of research methods, data analysis methods for both qualitative and
+                        quantitative data, and draw from user insights to glean what users truly need from a website.
+                    </p>
+                </div>
+            </div>
+            <div class="whatDiv">
+                <div>
+                    <h5 class="whatH5">Design</h5>
+                </div>
+                <div>
+                    <p>I can use Figma, Miro, and several art programs for design collaboration with a team. I can user
+                        test for design validity, and build websites for handoff with developers.</p>
+                </div>
+            </div>
+            <div class="whatDiv">
+                <div>
+                    <h5 class="whatH5">Code</h5>
+                </div>
+                <div>
+                    <p>I can code in HTML, CSS, and Javascript to help bring a design to fruition or to understand
+                        website developers during the design process. I am also familiar with Zeplin for handoff.</p>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <section>
+        <div class="centerDiv">
+            <h2>My Work</h2>
+        </div>
+        <div class="workGrid">
+            <div class="workCell">
+            </div>
+            <div class="workCell">
+                <div class="centerDiv">
+                    <h3>URC Redesign</h3>
+                </div>
+                <div class="blueDiv">
+                    <img src="/images/desktopURCredesignhomepage.png">
+                </div>
+                <div class="centerDiv">
+                    <p>A redesign of several pages for the non-profit website, Utah Rivers Council.</p>
+                </div>
+            </div class="workCell">
+            <div>
+            </div>
+            <div class="workCell">
+                <div class="centerDiv">
+                    <h3>APHIS Redesign</h3>
+                </div>
+                <div class="greenDiv">
+                    <img src="/images/desktopAPHISredesignhomepage.png">
+                </div>
+                <div class="centerDiv">
+                    <p>A redesign of several pages for the government website, Animal and Plant Health Inspection
+                        Service.
+                    </p>
+                </div>
+            </div>
+            <div class="workCell">
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+    </section>
+
+    <section>
+        <div class="centerDiv">
+            <h2> Chat with me!</h2>
+        </div>
+        <div class="contactDiv">
+            <div>
+                <div>
+                    <h4>Contact Via Email</h4>
+                </div>
+                <div class="inputDiv">
+                    <input id="name" type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="inputDiv">
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="feedbackDiv">
+                    <input class="feedback" type="text" id="error" disabled="disabled"
+                        placeholder="">
+                </div>
+                <div class="inputDiv">
+                    <textarea placeholder="Write your message here..."></textarea>
+                </div>
+                <div>
+                    <button type="button">Send<img class="buttonSpacing" src="images/sendicon.png"> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
     <footer>
         <div class="footerFlex">
             <div class="footerContent">
-                <img class="footerP" src="images/desktoplinkediniconfooter.png">
+                <img class="footerP linkedInP" src="images/desktoplinkediniconfooter.png">
             </div>
             <div class="footerContent">
                 <p class="align footerP">Find me on LinkedIn!</p>

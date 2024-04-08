@@ -1,0 +1,310 @@
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.headerContent {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    display: inline-block;
+    background-color: #D2DDBC;
+}
+
+.headerLogo {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.headerMenu {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.heroImg {
+    content:url("/images/mobileherohomepage.png");
+    margin-bottom: 30px;
+}
+
+.welcomeContainer {
+    padding-top: 90px;
+    margin: 0 auto;
+    display: flex;
+    width: 370px;
+}
+
+.welcomeChild {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 176px;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerDiv {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.whatContainer {
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    width: 287px;
+    margin-bottom: 90px;
+}
+
+.whatDiv {
+    background-color: #D2DDBC;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.whatH5 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.workGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.workCell {
+    width: 287px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blueDiv {
+    display:flex;
+    background-color: #36495F;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0px 2px 5px black;
+}
+
+.greenDiv {
+    display:flex;
+    background-color: #323927;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0px 2px 5px black;
+}
+
+.contactDiv {
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+
+.inputDiv {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.feedbackDiv {
+    margin-top: 0px;
+}
+
+.feedback {
+    background-color: white;
+    border-radius: 0px;
+    color: #131313;
+    height: 20px;
+    margin-top: -5px;
+}
+
+.inputError {
+    background-color: #EDD5CF;
+}
+
+.linkedInP {
+    content:url("/images/mobilelinkediniconfooter.png");
+}
+
+.linkedInG {
+    content:url("/images/mobilelinkedinicon.png");
+}
+
+input {
+    font-family: "Jost";
+    border-radius: 20px;
+    border:0px;
+    padding-left: 10px;
+    height: 27px;
+    width: 250px;
+    background-color: #D4D4D4;
+    /* margin: 5px; */
+}
+
+textarea {
+    font-family: "Jost";
+    border-radius: 20px;
+    border:0px;
+    background-color: #D4D4D4;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    width: 310px;
+    height: 169px;
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: none;
+}
+
+hr {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 75%;
+}
+
+section {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+
+h6 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #131313
+}
+
+h5 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 500;
+    font-size: 19px;
+    color: #131313
+}
+
+h4 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 19px;
+    color: #131313
+}
+
+h3 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 34px;
+    color: #131313
+}
+
+h2 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 34px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 40px;
+    color: #131313;
+    display: inline;
+    position: relative;
+    top: -4px;
+}
+
+p {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 16px;
+    color: #131313;
+    margin: -5px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-color: #311911;
+    text-align: center;
+    max-height: 110px;
+
+}
+
+.footerContent {
+    display: inline-block;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex: 1;
+}
+
+.footerP {
+    color: #EDD5CF;
+    text-wrap: nowrap;
+
+}
+
+.footerFlex {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.align {
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.h2align {
+    text-align: center;
+    width: 100%;
+}
