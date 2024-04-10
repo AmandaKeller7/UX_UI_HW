@@ -230,7 +230,7 @@ p {
 
 .inputDiv {
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .feedbackDiv {
@@ -238,11 +238,12 @@ p {
 }
 
 .feedback {
-    background-color: white;
+    background-color: transparent;
     border-radius: 0px;
     opacity: 1;
     height: 20px;
     margin-top: -5px;
+    pointer-events: none;
 }
 
 .inputError {
@@ -318,4 +319,26 @@ footer {
 .h2align {
     text-align: center;
     width: 100%;
+}
+
+.submitButton::before {
+    content: "Send";
+}
+
+.submitHover {
+    background-color: #D2DDBC;
+}
+
+.submitSent {
+    pointer-events: none;
+    background-color: #7B8B5F
+}
+
+.submitSent::before {
+    content: "Sent!";
+}
+
+.cardHover {
+    opacity: 90%;
+    box-shadow: 0px 5px 5px black;
 }
