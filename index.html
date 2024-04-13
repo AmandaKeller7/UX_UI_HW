@@ -151,14 +151,18 @@
                     <input type="email" id="email" placeholder="Your Email">
                 </div>
                 <div class="feedbackDiv">
-                    <input class="feedback" type="text" id="error" placeholder="">
+                    <div class="feedback"></div>
                 </div>
                 <div class="inputDiv">
                     <textarea placeholder="Write your message here..." id="emailBody"></textarea>
                 </div>
+                <div class="feedbackDiv">
+                    <div><img class="hidden" id="errorimg" src="images/iconalert.svg"></div>
+                    <div style="width: 100%"><div class="feedback hidden" id="error"></div></div>
+                </div>
                 <div>
                     <button type="button" class="submitButton">
-                        <img class="buttonSpacing" src="images/sendicon.png"> 
+                        <img class="buttonSpacing" id="sentIcon" src="images/sendicon.png"> 
                     </button>
                 </div>
             </div>

@@ -25,18 +25,19 @@ function initButton() {
         
     $(":button").click(function () {
         // get the name field
-        name = $("#name").val();
+        var name = $("#name").val();
         // get the email field
-        email = $("#email").val();
+        var email = $("#email").val();
         // get the body
-        body = $("#emailBody").val();
+        var body = $("#emailBody").val();
 
         if (name && body && emailReg.test(email))
         {
-            // TODO: add logic to send email and handle any submission errors
+            // TODO: add logic to send email and handle any submission errors - backend
             clicked=true;
             $(this).addClass("submitSent");
-            
+            $("#sentIcon").addClass("submitSentIcon")
+            $("#sentIcon").addClass("animator")
             resetErrors();
 
             $(this).addClass("sentButton");
@@ -44,10 +45,10 @@ function initButton() {
         {
             resetErrors();
             // Something was missing or incorrect.  Display error.
-            message = ""
+            var message = '<p class="error">'
             if (!name)
             {
-                message = "Name is empty. ";
+                message += "Name is empty. ";
                 $("#name").addClass("inputError");
             }
             if (!email)
@@ -65,7 +66,10 @@ function initButton() {
                 message += "Message is empty. ";
                 $("#emailBody").addClass("inputError");
             }
-            $("#error").attr("placeholder", message);
+            message +="</p>";
+            $("#error").append(message);
+            $("#errorimg").removeClass("hidden");
+            $("#error").removeClass("hidden");
 
             clicked=false;
         }
@@ -77,8 +81,11 @@ function initButton() {
 function resetErrors()
 {
     $("#name").removeClass("inputError");
-            $("#email").removeClass("inputError");
-            $("#emailBody").removeClass("inputError");
+    $("#email").removeClass("inputError");
+    $("#emailBody").removeClass("inputError");
+    $("#errorimg").addClass("hidden");
+    $("#error").addClass("hidden");
+    $("#error").empty();
 }
 
 // Card hover
