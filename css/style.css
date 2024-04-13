@@ -338,6 +338,11 @@ footer {
     content: "Sent!";
 }
 
+/*trying to make icon change on js*/
+.submitSentIcon {
+content:url("../images/checkicon.png");
+}
+
 .cardHover {
     opacity: 90%;
     box-shadow: 0px 5px 5px black;

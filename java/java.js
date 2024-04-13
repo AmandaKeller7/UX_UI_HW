@@ -22,10 +22,7 @@ function initButton() {
             }
         });
 
-
-
-
-
+        
     $(":button").click(function () {
         // get the name field
         name = $("#name").val();
