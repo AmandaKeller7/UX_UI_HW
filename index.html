@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title> HW17 </title>
+<title> HW19 </title>
 
 <head>
     <link rel="stylesheet" href="css/style.css">
@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="/java/java.js"></script>
 </head>
 
 <body>
@@ -149,14 +151,19 @@
                     <input type="email" id="email" placeholder="Your Email">
                 </div>
                 <div class="feedbackDiv">
-                    <input class="feedback" type="text" id="error" disabled="disabled"
-                        placeholder="">
+                    <div class="feedback"></div>
                 </div>
                 <div class="inputDiv">
-                    <textarea placeholder="Write your message here..."></textarea>
+                    <textarea placeholder="Write your message here..." id="emailBody"></textarea>
+                </div>
+                <div class="feedbackDiv">
+                    <div><img class="hidden" id="errorimg" src="images/iconalert.svg"></div>
+                    <div style="width: 100%"><div class="feedback hidden" id="error"></div></div>
                 </div>
                 <div>
-                    <button type="button">Send<img class="buttonSpacing" src="images/sendicon.png"> </button>
+                    <button type="button" class="submitButton">
+                        <img class="buttonSpacing" id="sentIcon" src="images/sendicon.png"> 
+                    </button>
                 </div>
             </div>
         </div>

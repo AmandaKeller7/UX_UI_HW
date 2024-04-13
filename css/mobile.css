@@ -10,6 +10,10 @@ body {
     margin-right: 30px;
 }
 
+textarea {
+    margin: 0px;
+}
+
 .headerContent {
     margin: 0px 0px 0px 0px;
     padding: 0;
@@ -134,14 +138,14 @@ body {
 }
 
 .feedbackDiv {
-    margin-top: 0px;
+    max-size: 100px;
+    width: 310px;
 }
 
 .feedback {
-    background-color: white;
+    background-color: transparent;
     border-radius: 0px;
     color: #131313;
-    height: 20px;
     margin-top: -5px;
 }
 
@@ -165,22 +169,10 @@ input {
     height: 27px;
     width: 250px;
     background-color: #D4D4D4;
-    /* margin: 5px; */
 }
 
 textarea {
-    font-family: "Jost";
-    border-radius: 20px;
-    border:0px;
-    background-color: #D4D4D4;
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
     width: 310px;
-    height: 169px;
-    padding-top: 10px;
-    padding-left: 10px;
-    resize: none;
 }
 
 hr {
