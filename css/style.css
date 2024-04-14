@@ -253,19 +253,9 @@ p {
 }
 
 textarea:focus, input:focus {
-outline: none;
-border: 3px solid #799CF5;
-} 
-
-button:focus, input:focus {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    height: 29px;
-    width: 341px;
     outline: none;
     border: 3px solid #799CF5;
-}
+} 
 
 .hidden {       
     opacity: 0;

@@ -48,22 +48,22 @@ function initButton() {
             var message = '<p class="error">'
             if (!name)
             {
-                message += "Name is empty. ";
+                message += "Name is missing. ";
                 $("#name").addClass("inputError");
             }
             if (!email)
             {
-                message += "Email is empty. ";
+                message += "Email is missing. ";
                 $("#email").addClass("inputError");
             }
             if (!emailReg.test(email))
             {
-                message += "Email address invalid. ";
+                message += "Email address is invalid. ";
                 $("#email").addClass("inputError");
             }
             if (!body)
             {
-                message += "Message is empty. ";
+                message += "Message is missing. ";
                 $("#emailBody").addClass("inputError");
             }
             message +="</p>";
