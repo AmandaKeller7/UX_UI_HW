@@ -138,7 +138,6 @@ textarea {
 }
 
 .feedbackDiv {
-    max-size: 100px;
     width: 310px;
 }
 
@@ -147,6 +146,10 @@ textarea {
     border-radius: 0px;
     color: #131313;
     margin-top: -5px;
+}
+
+button:focus, input:focus {
+    width: 262px;
 }
 
 .inputError {
@@ -224,7 +227,7 @@ h3 {
     margin: 0px 0px 0px 0px;
     font-family: "Jost";
     font-weight: 400;
-    font-size: 34px;
+    font-size: 29px;
     color: #131313
 }
 
