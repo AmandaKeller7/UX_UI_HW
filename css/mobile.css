@@ -148,10 +148,6 @@ textarea {
     margin-top: -5px;
 }
 
-button:focus, input:focus {
-    width: 262px;
-}
-
 .inputError {
     background-color: #EDD5CF;
 }
